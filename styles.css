@@ -1,0 +1,221 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cae7ea;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+  align-items: center;
+  justify-content: space-around
+  
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+ 
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #cae7ea;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.second-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.find-out-btn, .play-demo-btn {
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.find-out-btn {
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+}
+
+.play-demo-btn {
+    background-color: transparent;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.play-demo-btn span {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.hero-image img {
+    width: 350px;
+    height: auto;
+}
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #cae7ea;
+}
+
+.category-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+/* Top Destinations Section */
+.top-destinations {
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #cae7ea;
+}
+
+.top-destinations .category-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destination-cards .card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination-cards .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.destination-cards .card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.destination-cards .card .price {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.destination-cards .card .days {
+    font-size: 16px;
+    color: #777; 
+
+}
+
+
+
