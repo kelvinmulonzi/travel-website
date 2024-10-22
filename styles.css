@@ -18,6 +18,13 @@ header {
   
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -50,15 +57,19 @@ header {
 }
 
 .signup-btn {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 120px;
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #ffcc00;
     color: #333;
-    text-decoration: none;
     font-weight: bold;
-    justify-content: space-between;
-    align-items: left;
+    
+   
 }
 
 .hero {
@@ -214,8 +225,105 @@ header {
 .destination-cards .card .days {
     font-size: 16px;
     color: #777; 
-
+}
+body {
+    font-family: Arial, sans-serif;
 }
 
+.newsletter-section {
 
+    background-color: #eff1f0;
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.newsletter-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter-container h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.input-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #52C4C9;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #439FA2;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #007B7F;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
 

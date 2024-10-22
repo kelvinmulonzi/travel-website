@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* background-color: aquamarine; */
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    /* align-items: center; */
+    gap: 0;
+    background-color: #39e8f1;
+    border-radius: 20px;
+  }
+  
+  .travel-hero {
+    background-color: transparent;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+  }
+  
+  .travel h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .travel p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  
+  .Account {
+    border-radius: 40px 0px 0px 40px;
+    background-color: #eaeaea;
+    width: 500px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .choose-account h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    columns: #333333;
+  }
+  
+  .sign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .sign button {
+    height: 45px;
+    width: 200px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .sign button img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  .sign button p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+  }
+  
+  .Account p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #909090;
+  }
+  
+  .Account input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #a0a0a0;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #909090;
+  }
+  
+  .Account .btn {
+    height: 50px;
+    margin-top: 10px;
+    background-color: #7cd2d7;
+    padding: 126px, 9px, 126px;
+    border-radius: 10px;
+    border-color: #909090;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+  }
+   
+  .log {
+      color: #7CD2D7;
+  }
